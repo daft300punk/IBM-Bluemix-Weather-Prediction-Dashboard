@@ -1,9 +1,13 @@
-# IBM COGNITIVE - WEATHER SALES PERFORMANCE ANALYTICS - WIRE UP SERVICES TO THE FRONTEND
-
+# IBM COGNITIVE - WEATHER SALES PERFORMANCE ANALYTICS
 1. Refer ```docs/NEW-README.md``` for setting up things related to IBM watson on POC backend.
 
 # Isomorphic ReactJS App
 
+### UI Prototype Design
+1. Imgur album - http://imgur.com/a/PZImp
+![1](http://i.imgur.com/jalS2vh.png)
+![2](http://i.imgur.com/DtaNS7Q.png)
+![3](http://i.imgur.com/FrIvSmC.png)
 ### Deployment and Execution
 
 1.  You should have NodeJS 6.10.0 (other recent versions should also work fine);
