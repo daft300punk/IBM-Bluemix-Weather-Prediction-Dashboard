@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: sans-serif;
+
+  .react-calendar-timeline {
+    background: red;
+  }
+}
+
+body > div {
+  height: 100%;
+}
+
+body > div > div {
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+*:focus {
+  outline:0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mainBodyContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .mapContainer {
+    height: 70%;
+    width: 100%;
+    background-color: #20424e;
+  }
+
+  .controlsContainer {
+    background-color: #1c3649;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+    ::-webkit-scrollbar {
+      width: 10px;  /* remove scrollbar space */
+      background: rgba(0, 0, 0, .1);  /* optional: just make scrollbar invisible */
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, .2);
+      outline: 1px solid rgba(0, 0, 0, .2);
+    }
+
+  .controls {
+    background-color: #152935;
+    width: 320px;
+    padding: 16px;
+    overflow-y: scroll;
+
+    h4 {
+      font-size: 14px;
+      color: #93a7b0;
+      margin-bottom: 4px;
+    }
+
+    select {
+      height: 24px;
+      border: 1px solid #5596e6;
+      background-color: #1c3649;
+      color: #5596e6;
+      border-radius: 12px;
+      width: 100%;
+      font-size: 12px;
+      padding-left: 8px;
+      margin-bottom: 16px;
+    }
+
+    .mapLayers {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+
+      button {
+        background: none;
+        border: none;
+      }
+
+      img {
+        margin-right: 16px;
+      }
+    }
+
+    .checkboxOption {
+      display: flex;
+      cursor: pointer;
+      margin-bottom: 4px;
+
+      img {
+        margin-right: 8px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #93a7b0;
+      }
+    }
+  }
+
+  .timelineContainer {
+    display: flex;
+    width: 100%;
+  }
+}

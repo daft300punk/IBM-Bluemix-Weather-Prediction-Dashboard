@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <path d="M16.000,7.000 L3.828,7.000 L9.414,1.414 L8.000,0.000 L0.000,8.000 L8.000,16.000 L9.414,14.586 L3.828,9.000 L16.000,9.000 L16.000,7.000 Z"  fill="#000"/>
+</svg>

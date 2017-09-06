@@ -1,0 +1,44 @@
+.fileViewContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+
+  .fileView {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+    background-color: #152935;
+    padding: 24px;
+    border-radius: 18px;
+  }
+
+  .titleContainer {
+    display: flex;
+    margin-bottom: 24px;
+    align-items: flex-start;
+
+    .info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    img {
+      margin-right: 8px;
+    }
+
+    h4 {
+      font-size: 16px;
+      font-weight: normal;
+      color: #93a7b0;
+    }
+
+    p {
+      font-size: 12px;
+      color: #425667;
+    }
+  }
+
+  .buttonContainer {
+    display: flex;
+  }
+}

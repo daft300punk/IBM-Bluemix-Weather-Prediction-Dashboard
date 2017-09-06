@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: <APP_NAME>
+  host: <APP_NAME>
+  disk_quota: 1024M
+  buildpack: sdk-for-nodejs

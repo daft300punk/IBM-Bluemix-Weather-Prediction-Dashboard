@@ -1,0 +1,39 @@
+.numberStat {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  min-width: 50px;
+
+  .numberContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  h3 {
+    color: white;
+    margin-right: 6px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  p {
+    color: #93a7b0;
+    font-size: 12px;
+  }
+
+  .red {
+    color: #e80000;
+    fill: #e80000;
+  }
+
+  .green {
+    color: #00b4a0;
+    fill: #00b4a0;
+  }
+
+  .tangerine {
+    color: #f38b00;
+    fill: #f38b00;
+  }
+}

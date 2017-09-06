@@ -1,0 +1,53 @@
+.map {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  position: relative;
+
+  .expandMap {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+
+    button {
+      background: none;
+      border: none;
+    }
+  }
+
+  .mapButtonContainer {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    display: flex;
+
+    .playForecast {
+      display: flex;
+      align-items: center;
+    }
+
+    p {
+      font-size: 12px;
+      margin-left: 4px; 
+    }
+
+    svg {
+      circle {
+        stroke-width: 1;
+      }
+    }
+
+    select {
+      height: 28px;
+      background: #5596e6;
+      border-radius: 14px;
+      border: none;
+      color: white;
+      padding: 0 12px;
+      font-size: 12px;
+    }
+  }
+}

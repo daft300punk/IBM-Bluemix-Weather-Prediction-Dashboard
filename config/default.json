@@ -1,0 +1,32 @@
+/* All availalbe configuration options should be documented in the default
+ * config file, even when they are overriden in every custom configuration. */
+{
+  /* API token for logentries.com. The token below is just for local testing of
+   * the setup. To override it use LOG_ENTRIES_TOKEN environment variable. */
+   /**
+   Replace all IBM related credentials. I currently put the credentials directly
+   here. You may want to put it in development.json while developing.
+   */
+  "LOG_ENTRIES_TOKEN": "816f5574-0d4a-49f9-ab3b-00d791f7c1f7",
+
+  /**
+  * The following credentials you should receive on creating a Weather Company Data
+  * Service in IBM Blumeix.
+  */
+  "UNAME": "600ecc2e-c83d-4b43-bc32-1e2c40d4522a",
+  "PASSWORD": "apNyvc3ONV",
+  "HOST": "twcservice.eu-gb.mybluemix.net",
+  "PORT_WS": 443,
+  "URL": "https://600ecc2e-c83d-4b43-bc32-1e2c40d4522a:apNyvc3ONV@twcservice.eu-gb.mybluemix.net",
+
+  /**
+  *The folowing 2 credentials you should get after creating Retrieve and Rank service
+  *in IBM Bluemix.
+  */
+  "RR_UNAME": "fbe4df24-9251-4750-850e-c5b83e036db2",
+  "RR_PASSWORD": "Xaskl6R0GiUY",
+  /**
+  *You will receive this after creating solr cluster.
+  */
+  "SOLR_CLUSTER_ID": "sca39fcbc2_007a_4b3f_aee6_dc13155ecccb"
+}

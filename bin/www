@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+/* App startup script. */
+
+/* Enables Babel for the server-side code. */
+require('babel-register');
+
+/* Runs the ExpressJS startup script. */
+require('../src/server');

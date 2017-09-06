@@ -1,0 +1,70 @@
+/*
+* Sadly, the library does not provide styling through props.
+* And I had some problems loading sccs from node_modules.
+* For the time being, all this !important madness.
+*/
+.timeline {
+  display: flex;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.react-calendar-timeline .rct-vertical-lines .rct-vl {
+  border-left: none!important;
+  background: none!important;
+}
+
+.rct-hl-even {
+  background-color: #1c3649!important;
+  border-bottom: none!important;
+}
+
+.rct-item {
+  background-color: #203e53!important;
+  border: none!important;
+  display: flex!important;
+}
+
+.rct-item-overflow {
+  display: flex!important;
+}
+
+.rct-item-content {
+  padding: 0!important;
+  margin: 0!important;
+}
+
+.rct-label-group {
+  background-color: rgba(0, 0, 0, .02)!important;
+  color: white!important;
+  font-weight: bold!important;
+  border-bottom: 1px solid rgba(255, 255, 255, .1)!important;
+  border-top: 1px solid rgba(255, 255, 255, .1)!important;
+  border-left: 2px solid rgba(255, 255, 255, .1)!important;
+}
+
+.rct-label {
+  background-color: rgba(0, 0, 0, 0)!important;
+  color: #526679!important;
+  border-bottom: 1px solid rgba(255, 255, 255, .1)!important;
+  border-left: 2px solid rgba(255, 255, 255, .1)!important;
+}
+
+.rct-today {
+  background: #5596e6!important;
+}
+
+.redSideBorder {
+  border-left: 8px solid #e80000!important;
+  padding-left: 4px;
+}
+
+.yellowSideBorder {
+  border-left: 8px solid #f38b00!important;
+  padding-left: 4px;
+}
+
+.greenSideBorder {
+  border-left: 8px solid #00b4a0!important;
+  padding-left: 4px;
+}

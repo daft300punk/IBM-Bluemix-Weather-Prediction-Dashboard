@@ -1,0 +1,67 @@
+.optimizationCard {
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .optimizationNumber {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+  }
+
+  .number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    background-color: #00b4a0;
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    margin-left: 16px;
+
+    svg {
+      margin-top: 2px;
+    }
+  }
+
+  h5 {
+    color: #526679;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 4px;
+  }
+
+  p {
+    color: #93a7b0;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .buttonContainer {
+    display: flex;
+  }
+
+  .dotContainer {
+    display: flex;
+    margin-top: 16px;
+
+    .dot {
+      height: 8px;
+      width: 8px;
+      background: white;
+      border-radius: 4px;
+      border: 1px solid #5596e6;
+      margin-right: 4px;
+    }
+
+    .active {
+      background: #5596e6;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  margin-bottom: 16px;
+  padding: 0 16px;
+  flex-shrink: 0;
+
+  &:hover {
+    background-color: #24455d;
+  }
+
+  .upperContent {
+    display: flex;
+    flex-direction: row;
+    padding: 4px 0;
+    .title.info {
+      flex-grow: 1;
+      cursor: pointer;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      padding: 0 32px 0 0;
+
+      h3 {
+        color: white;
+        font-weight: normal;
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 4px;
+      }
+
+      p {
+        color: #93a7b0;
+        font-size: 14px;
+      }
+    }
+
+    button {
+      background: none;
+      border: none;
+    }
+  }
+
+  .lowerContent {
+    display: none;
+  }
+}
+
+.active {
+  background-color: #24455d;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  .upperContent {
+    border-bottom: 1px solid #1c3649;
+    padding: 8px 0;
+  }
+
+  .lowerContent {
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    p {
+      margin: 16px 0;
+      width: 50%;
+      color: #93a7b0;
+      font-size: 14px;
+    }
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+
+    .spaceBetween {
+      flex-grow: 1;
+    }
+  }
+}
+
+.redBorder {
+  border-left: #e80000 solid 5px;
+}
+
+.greenBorder {
+  border-left: #00b4a0 solid 5px;
+}
+
+.tangerineBorder {
+  border-left: #f38b00 solid 5px;
+}

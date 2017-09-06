@@ -1,0 +1,63 @@
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, .01);
+
+  p {
+    font-size: 14px;
+  }
+
+  .userMessage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+    flex-shrink: 0;
+
+    .userMessageText {
+      display: flex;
+      flex-direction: row;
+      background-color: #24455d;
+      border-radius: 18px;
+      padding: 8px 16px;
+      margin-right: 8px;
+      color: #93a7b0;
+    }
+  }
+
+  .botMessage {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+
+    .botMessageIcon {
+      height: 32px;
+      width: 32px;
+      border-radius: 116px;
+      background-color: #152935;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-right: 8px;
+    }
+
+    .botMessageContent {
+      display: flex;
+      flex-direction: row;
+      margin-right: 8px;
+
+      .normalBotMessage {
+        background-color: #152935;
+        border-radius: 18px;
+        padding: 8px 16px;
+        color: #93a7b0;
+      }
+    }
+  }
+}

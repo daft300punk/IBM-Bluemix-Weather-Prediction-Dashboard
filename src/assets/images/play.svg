@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        filter: url(#color-overlay-1);
+      }
+
+      .cls-2 {
+        fill: #00b4a0;
+        filter: url(#color-overlay-2);
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#5596e6"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+    <filter id="color-overlay-2" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <g>
+    <g style="fill: #fff; filter: url(#color-overlay-1)">
+      <circle cx="8.5" cy="8.5" r="8" id="circle-1" style="filter: none; fill: inherit" class="cls-1"/>
+    </g>
+    <use xlink:href="#circle-1" style="stroke: #fff; filter: none; fill: none"/>
+    <path d="M11.999,7.500 L6.001,4.001 L6.001,10.999 L11.999,7.500 " class="cls-2"/>
+  </g>
+</svg>

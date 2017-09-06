@@ -1,0 +1,40 @@
+// Mixins
+// Common
+@mixin ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+// Replace the bourbon background with simple linear gradient;
+@mixin background-gradient($start, $stop) {
+  background: $start;
+  background: linear-gradient(to top, $start 0%, $stop 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='$start', endColorstr='$stop', GradientType=0); /* IE6-9 */
+}
+
+// Placeholder
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+
+  &:-moz-placeholder {
+    @content;
+  }
+
+  &::-moz-placeholder {
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+// mixin for calculate the width of the element
+@mixin calc($property, $expression) {
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
